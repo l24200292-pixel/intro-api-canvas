@@ -1,0 +1,25 @@
+/* style.css */
+
+/* Seleccionamos el canvas por su ID usando el símbolo '#' */
+#Lienzo {
+  /* 1. Relleno: Un color crema suave que combina excelente con el borde morado */
+  background-color: #fdfaec;
+  
+  /* 2. Borde: Cambiamos el color a morado ('purple' o '#800080') y lo hacemos un poco más grueso (3px) */
+  border: 3px solid purple;
+  
+  /* 3. Orillas redondeadas: Entre más grande el número, más redondo será el borde */
+  border-radius: 20px;
+  
+  /* 4. Sombra: desplazamiento en X, desplazamiento en Y, nivel de desenfoque, y color de la sombra (negro con 30% de transparencia) */
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Quitamos los márgenes por defecto del navegador */
+body {
+  margin: 0;
+  padding: 0;
+  
+  /* Opcional: Le puse un fondo gris muy clarito a toda la página para que la sombra del canvas destaque mucho más */
+  background-color: #f0f0f0; 
+}
