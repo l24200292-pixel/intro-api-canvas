@@ -9,7 +9,7 @@ Este es un proyecto introductorio utilizando la **API de Canvas de HTML5**. Aqu�
 * **Dibujo Bidimensional:** Uso del contexto `2d` de Canvas para renderizar y colorear un rectángulo rosa.
 * **Buenas Prácticas:** El código fuente de JavaScript está detalladamente comentado utilizando el estándar **JSDoc**.
 
-## 📁 Estructura de Archivos
+##  Estructura de Archivos
 
 El proyecto mantiene los lenguajes separados para una mejor organización:
 
